@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  @apply bg-[#0000] text-zinc-100;
+  
+}
+
+.test{
+  widht: 100vw;
+  height: 100%;
+  margin: 0;
+  background: radial-gradient(#003B00 03%, #000 50%);
+  background-repeat: no-repeat;
+}
