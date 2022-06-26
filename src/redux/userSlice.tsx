@@ -14,7 +14,6 @@ export const fetchUsers = createAsyncThunk(
       })
       .then((response) => {
         alert("Atuliazado");
-        console.log("senha foi atualizada!");
       })
       .catch((error) => console.log("error em atualiza senha!", error));
   }
